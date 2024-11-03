@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <header>
+      <h1>Task 1, 2, 3, 4</h1>
+    </header>
+    <h2>Задание 1: Добавление предложений</h2>  
+    <input type="text" id="inputSentence" placeholder="Введите предложение">  
+    <button id="addButton">Добавить</button>  
+    <ul id="sentenceList"></ul>  
+
+    <h2>Задание 2: Анализ текста</h2>  
+    <textarea id="textArea" rows="5" cols="30" placeholder="Введите текст..."></textarea><br>  
+    <button id="extractSentences">Вывести правильные предложения</button>  
+    <button id="replaceNumbers">Заменить числа на NUMBER</button>  
+    <div id="results"></div>  
+
+    <h2>Задание 3: Вход пользователя</h2>  
+    <div id="loginForm">  
+        <input type="text" id="username" placeholder="Логин">  
+        <input type="password" id="password" placeholder="Пароль">  
+        <button id="loginButton">Войти</button>  
+    </div>  
+    <div id="userDataForm" class="hidden">  
+        <input type="text" id="userPosition" placeholder="Должность">  
+        <textarea id="userDescription" rows="3" cols="30" placeholder="Описание"></textarea><br>  
+        <button id="saveButton">Сохранить</button>  
+    </div>  
+    <script src="script.js"></script>
+  </body>
+</html>
